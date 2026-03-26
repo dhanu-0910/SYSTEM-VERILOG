@@ -1,4 +1,4 @@
-module tb_4_state;
+module tb_2_state;
   bit [3:0]a;
   byte b;
   int c;
