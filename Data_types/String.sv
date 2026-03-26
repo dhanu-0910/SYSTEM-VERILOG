@@ -19,6 +19,8 @@
      $display("Name=%s",{3{s}});
      t="dhanushiya";
      $display("s_compare_t=%0d",s.icompare(t));
+     t="duanushiya";
+     $display("s_icompare_t=%0d",s.icompare(t));
      $display("substr=%s",s.substr(3,6));
      t="DHANUSHIYA";
      $display("lowercase=%s",t.tolower());
