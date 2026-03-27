@@ -1,6 +1,8 @@
 module tb;
   int d[9]='{10,20,30,40,50,60,80,80,90};
   int p[$];
+  int b[9]='{9,2,5,3,8,1,2,4,8};
+  int c[2]='{5,2};
   initial begin
     p=d.find(x) with (x>50);
     $display("find=%p",p);
@@ -28,11 +30,18 @@ module tb;
     $display("reverse=%p",p);
     d.sort();
     $display("sort=%p",d);
-    d.rsort();
-    $display("rsort=%p",d); 
+    b.rsort();
+    $display("rsort=%p",b);
+    b.rsort(x)with (x<3);
+    $display("rsort=%p",b); 
     for(int i=0;i<3;i++)begin
       d.shuffle();
       $display("suffle:%0d = %p",i,d);
-    end           
+    end
+    $display("sum= %p",b.sum());
+    $display("product= %p",b.product());
+    $display("and= %p",c.and());
+    $display("or= %p",c.or());
+    $display("xor= %p",c.xor());
   end
 endmodule
