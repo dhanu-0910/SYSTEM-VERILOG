@@ -15,7 +15,7 @@ module tb;
     $display("Array=%p",d);
     d=d[0:$-1];
     $display("Array=%p",d);
-    d.insert(0,"dhanu");
+    d.insert(0,"dhanu"); 
     $display("Array=%p",d);
     d.delete(2);
     $display("Array=%p",d);
