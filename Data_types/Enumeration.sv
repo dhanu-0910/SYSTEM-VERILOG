@@ -16,3 +16,15 @@ module tb;
       $display("name is now=%s",n1.name());
   end
 endmodule
+//Another example
+module enumeration;
+  typedef enum{monday=1,tuesday,wednesday,thursday,friday,saturday,sunday}day;
+  day d;
+  initial begin
+    for(int i = 1; i< 8; i++)begin
+      d=day'(i);
+      $display("day=%0d %0s",d,d.name());
+    end
+    end
+endmodule
+
