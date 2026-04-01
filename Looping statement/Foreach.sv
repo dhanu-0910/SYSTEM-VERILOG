@@ -23,5 +23,16 @@ module tb;
     end
   end
 endmodule
+//Another example (2D)
+module tb;
+  string a[5][2]='{'{"d","r"},'{"d","p"},'{"a","p"},'{"s","h"},'{"b","k"}};
+  initial begin
+    foreach(a[i]) begin
+      foreach(a[i][j])begin
+        $display("a[%0d][%0d]=%s",i,j,a[i][j]);
+      end
+    end
+  end
+endmodule
 
     
