@@ -1,4 +1,4 @@
-module equality_operators;
+module tb;
   integer a,b;
   initial begin
     //Only x,z,? in RHS is treated as wildcard i.e., it can be (0,1,x,z) and x in LHS is treated as x
