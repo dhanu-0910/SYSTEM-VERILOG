@@ -14,6 +14,7 @@ module tb;
     $display("nor=%0b",b);
     b = ~^a;
     $display("xnor=%0b",b);
-   
+    b = ^~a;
+    $display("xnor=%0b",b); 
   end
 endmodule
