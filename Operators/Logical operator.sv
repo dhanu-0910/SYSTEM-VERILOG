@@ -14,6 +14,15 @@ module tb;
     c=0;
     x = !c;
     $display("Logic Negation = %0b",x);        
-    
+    x = (!a||b);
+    $display("Logic OR = %0b",x);
+    b=0;
+    x = (!a||b);
+    $display("Logic OR = %0b",x);
+    x = (a&&!b);
+    $display("Logic AND = %0b",x);  
+    b=0;
+    x = (a&&!b);
+    $display("Logic AND = %0b",x);  
   end
 endmodule
