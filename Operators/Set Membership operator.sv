@@ -31,6 +31,16 @@ module set_membership;
     else
       $display("Not Found");
     a = 12;
+    case (a) inside
+      [0:5]   : $display("Low");
+      [6:15]  : $display("Medium");
+      [10:31] : $display("High");
+    endcase
+    d =4'b10x1;
+    case(d) inside
+      4'b1001: $display("Found");
+      default : $display("Not Found");
+    endcase
     
   end
 endmodule
