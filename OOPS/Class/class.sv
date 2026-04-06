@@ -25,7 +25,7 @@ module tb;
     a1.q=5;
     a2.sum();
     a2.display();
-    a2.sum1(5,1);
+    a1.sum1(5,1);
     a2.display();
   end
 endmodule
