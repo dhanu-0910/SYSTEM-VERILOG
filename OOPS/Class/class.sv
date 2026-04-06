@@ -29,3 +29,7 @@ module tb;
     a2.display();
   end
 endmodule
+//output
+Sum=0
+Sum=9
+Sum=6
