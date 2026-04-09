@@ -42,3 +42,14 @@ module tb;
     d2.display();
   end
 endmodule
+//Output (Every object has separate memory but handle has common memory)
+Section=A Name=Dhanu Rollno=2
+Section=A Name=Dhanu Rollno=2
+Section=A Name=Suji Rollno=5
+Section=A Name=Dhanu Rollno=2
+Section=B Name=Suji Rollno=5
+Section=B Name=Dhanu Rollno=2
+Section=B Name=Suji Rollno=5
+Section=B Name=Aruna Rollno=9
+Section=C Name=Suji Rollno=5
+Section=C Name=Aruna Rollno=9
