@@ -1,6 +1,6 @@
 class Student;
   string section;
-  function new(int s="A");
+  function new(string s="A");
     section=s;
   endfunction
 endclass
