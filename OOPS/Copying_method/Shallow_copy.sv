@@ -1,0 +1,44 @@
+class Student;
+  string section;
+  function new(int s="A");
+    section=s;
+  endfunction
+endclass
+
+class Details;
+  int rollno;
+  string name;
+  Student s1;
+  function new(int r=2,string n="Dhanu");
+    rollno=r;
+    name=n;
+    s1=new();
+  endfunction
+  function void display();
+    $display("Section=%s Name=%s Rollno=%0d",s1.section,name,rollno);
+  endfunction
+endclass
+
+module tb;
+  Details d1,d2;
+  initial begin
+    d1=new();
+    d1.display();
+    d2=new d1;
+    d2.display();
+    d1.rollno=5;
+    d1.name="Suji";
+    d1.display();
+    d2.display();
+    d1.s1.section="B";
+    d1.display();
+    d2.display();
+    d2.rollno=9;
+    d2.name="Aruna";
+    d1.display();
+    d2.display();
+    d2.s1.section="C";
+    d1.display();
+    d2.display();
+  end
+endmodule
