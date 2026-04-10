@@ -49,3 +49,7 @@ module tb;
     c.display();
   end
 endmodule
+//Output
+Class = 10th  Section = A  Student_count = 50  Boys_count = 24  Girls_count = 26
+Class = 12th  Section = B  Student_count = 35  Boys_count = 20  Girls_count = 15
+Class = 9th  Section = A  Student_count = 60  Boys_count = 38  Girls_count = 22
