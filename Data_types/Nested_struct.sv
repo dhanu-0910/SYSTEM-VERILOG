@@ -25,3 +25,10 @@ module tb;
     $display("s=%p",s);
   end
 endmodule
+//Output
+Student Details
+Rollno=5 Name=Dhanu Section=A Age=23 Mark=95
+Rollno=2 Name=Dhivya Lakshmi Section=A Age=23 Mark=96
+Rollno=7 Name=Dhivya Bharathi Section=A Age=22 Mark=97
+Rollno=3 Name=Parvathy Section=B Age=23 Mark=95
+s='{rollno:3, name:"Parvathy", section:"B", m:'{age:23, mark:95}}
