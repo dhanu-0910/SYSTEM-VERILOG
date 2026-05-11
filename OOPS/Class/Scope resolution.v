@@ -25,4 +25,7 @@ module tb;
     v.display();
   end
 endmodule
+//Output
+VEHICLES= CAR
+VEHICLES= BIKE
 
