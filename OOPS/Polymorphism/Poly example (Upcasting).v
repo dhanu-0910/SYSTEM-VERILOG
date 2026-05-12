@@ -1,3 +1,4 @@
+//Upcasting: Child object → Parent handle
 // Only base class has class properties declared.
 class parent;
   bit [31:0] data;
