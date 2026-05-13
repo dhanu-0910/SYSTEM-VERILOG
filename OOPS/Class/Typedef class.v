@@ -1,3 +1,4 @@
+//Class used before its definition → typedef class needed
 typedef class child;
 class parent;
   int data;
