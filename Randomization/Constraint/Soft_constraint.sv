@@ -19,3 +19,54 @@ module tb;
     end
   end
 endmodule
+//Output
+Before Inline Constraint: 
+val1= 18
+After Inline Constraint: 
+val1= 62
+=============================================
+Before Inline Constraint: 
+val1= 25
+After Inline Constraint: 
+val1= 61
+=============================================
+Before Inline Constraint: 
+val1= 30
+After Inline Constraint: 
+val1= 60
+=============================================
+Before Inline Constraint: 
+val1= 24
+After Inline Constraint: 
+val1= 68
+=============================================
+Before Inline Constraint: 
+val1= 30
+After Inline Constraint: 
+val1= 64
+=============================================
+Before Inline Constraint: 
+val1= 21
+After Inline Constraint: 
+val1= 63
+=============================================
+Before Inline Constraint: 
+val1= 10
+After Inline Constraint: 
+val1= 68
+=============================================
+Before Inline Constraint: 
+val1= 11
+After Inline Constraint: 
+val1= 69
+=============================================
+Before Inline Constraint: 
+val1= 12
+After Inline Constraint: 
+val1= 64
+=============================================
+Before Inline Constraint: 
+val1= 37
+After Inline Constraint: 
+val1= 66
+=============================================
