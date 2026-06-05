@@ -10,7 +10,7 @@ module func_from_task;
 
   function function_sum;
     $display( "Time= %0t",$time);
-    $display( "Inside a function",$time); 
+    $display( "Inside a function"); 
   endfunction
   
   initial begin
