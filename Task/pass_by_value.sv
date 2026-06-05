@@ -1,22 +1,24 @@
 module test;
 
   task modify(input int a, output int x);
-    a = a + 10;
-    x=a;
-    $display("Inside Function: a = %0d", a);
+    a = a + 10;      
+    x = a;
+    $display("Inside Task: a = %0d", a);
   endtask
-  
+
   int a = 20;
   int x;
-  
+
   initial begin
-    $display("Before Function Call: x = %0d", a);
-    modify(a,x);
-    $display("After Function Call: x = %0d", a);
+    $display("Before Task Call: a = %0d, x = %0d", a, x);
+
+    modify(a, x);
+
+    $display("After Task Call: a = %0d, x = %0d", a, x);
   end
 
 endmodule
 //Output
-Before Function Call: x = 20
-Inside Function: a = 30
-After Function Call: x = 20
+Before Task Call: a = 20, x = 0
+Inside Task: a = 30
+After Task Call: a = 20, x = 30
