@@ -19,3 +19,5 @@ module tb;
   end
 
 endmodule
+//Output
+a=10 b=5 sum=15
