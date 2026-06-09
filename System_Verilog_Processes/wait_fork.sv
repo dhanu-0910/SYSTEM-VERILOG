@@ -26,3 +26,10 @@ module fork_join_example;
 
 endmodule
       
+//Output
+Simulation Started at 0
+Task1 completed at 5
+Task2 completed at 10
+Task3 completed at 15
+All Tasks Completed at 15
+      
